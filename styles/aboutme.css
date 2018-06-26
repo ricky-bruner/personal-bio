@@ -1,0 +1,111 @@
+body {
+    color: white;
+  
+    background: url(http://ak5.picdn.net/shutterstock/videos/25152545/thumb/1.jpg)
+      no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  button {
+    padding: 25px;
+    color: #a1eced;
+    background: linear-gradient(
+      to top,
+      rgba(161, 236, 237, 0.6),
+      rgba(0, 0, 51, 0.6),
+      rgba(0, 0, 26, 0.4),
+      rgba(0, 0, 26, 0)
+    );
+    font-size: 24px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 50px;
+    width: 30%;
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+    margin: 70px auto;
+    text-shadow: black 2px 2px;
+    box-shadow: black 15px 15px 10px;
+    border: black solid 1px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+  }
+  #output-places {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card-places {
+    display: block;
+    width: 75%;
+    margin: 30px;
+    border: black groove 5px;
+    border-radius: 15px;
+    background: url(http://www.dreamtemplate.com/dreamcodes/bg_images/color/c9.jpg)
+      no-repeat center center fixed;
+    background-size: cover;
+    /*   background: linear-gradient(to bottom right, rgba(0,0,0,0), rgba(0,0,0,0), black, dimgrey, dimgrey, black, rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), black, dimgrey, dimgrey, black, rgba(0,0,0,0), rgba(0,0,0,0)); */
+    color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-size: 80px;
+    text-align: center;
+    padding: 40px;
+    overflow: hidden;
+    box-shadow: black 15px 15px 10px;
+  }
+  
+  .places-img {
+    width: 100%;
+    /*   border: black solid 5px; */
+    border-radius: 10px;
+    box-shadow: black 15px 15px 10px;
+  }
+  #places-p {
+    margin-top: 50px;
+    font-size: 26px;
+  }
+  #interests-p {
+    margin-top: 50px;
+    font-size: 26px;
+  }
+  #output-interests {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .interests-img {
+    width: 100%;
+    /*   border: black solid 5px; */
+    border-radius: 10px;
+    box-shadow: black 15px 15px 10px;
+  }
+  .card-interests {
+    display: block;
+    width: 75%;
+    margin: 30px;
+    border: black groove 5px;
+    border-radius: 15px;
+    /*   background: linear-gradient(
+      to top right,
+      rgba(0, 0, 0, 0),
+      #00ff99,
+      #000066,
+      rgba(0, 0, 0, 0)
+    ); */
+    background: url(http://www.dreamtemplate.com/dreamcodes/bg_images/color/c11.jpg)
+      no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    text-shadow: black 2px 2px;
+    font-size: 34px;
+    text-align: center;
+    padding: 40px;
+    overflow: hidden;
+    box-shadow: black 15px 15px 10px;
+  }

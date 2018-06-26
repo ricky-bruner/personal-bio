@@ -1,0 +1,120 @@
+form {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 10px 20px;
+    /*   background: lightgrey; */
+    border-radius: 8px;
+    border: #0d0d0d 3px solid;
+    color: white;
+    box-shadow: black 15px 15px 10px;
+    background: linear-gradient(to left, rgba(0, 0, 26, 0), rgba(0, 0, 26, .5));
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #contactme {
+    text-align: center;
+    text-shadow: black 2px 2px;
+    font-size: 40px;
+  }
+  
+  legend {
+    text-shadow: black 2px 2px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #contact-form-button {
+    padding: 19px 39px 18px 39px;
+    color: #fff;
+    background: linear-gradient(
+      to top,
+      rgba(161, 236, 237, 0.6),
+      rgba(0, 0, 51, 0.6),
+      rgba(0, 0, 26, 0.4),
+      rgba(0, 0, 26, 0)
+    );
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid black; 
+    /*   border-width: 1px 1px 3px; */
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-shadow: black 2px 2px;
+    box-shadow: black 10px 10px 5px;
+  /*   border: none; */
+    cursor: pointer;
+  }
+  fieldset {
+    /*   margin-bottom: 10px; */
+    border: none;
+  }
+  
+  legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  input[type="text"] {
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    background: linear-gradient(to left, rgba(0, 0, 26, 0), white, white);
+    box-shadow: black 15px 15px 10px;
+    outline: none;
+  }
+  input[type="email"] {
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    box-shadow: black 15px 15px 10px;
+    background: linear-gradient(to left, rgba(0, 0, 26, 0), white, white);
+    outline: none;
+  }
+  textarea {
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    height: 150px;
+    box-shadow: black 15px 15px 10px;
+    background: linear-gradient(
+      to bottom right,
+      white,
+      white,
+      white,
+      white,
+      #f2f2f2,
+      #f2f2f2,
+      #e6e6e6,
+      #e6e6e6,
+      silver,
+      silver,
+      darkgrey,
+      darkgrey,
+      darkgrey,
+      rgba(0, 0, 26, 0),
+      rgba(0, 0, 26, 0)
+    );
+    outline: none;
+    resize: none;
+  }
+  
